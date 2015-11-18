@@ -1,5 +1,7 @@
 <?php
-
+/**
+ * Classe responsável em montar o nome do arquivo.
+ */
 class DrawFilename {
  
 	private $sufix; 
