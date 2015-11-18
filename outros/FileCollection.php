@@ -1,5 +1,7 @@
 <?php
- 
+/**
+ * Coleção de instâncias do tipo arquivo.
+ */
 class FileCollection extends Collection {
  
 	public function __construct() {
