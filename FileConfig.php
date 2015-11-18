@@ -1,5 +1,7 @@
 <?php
-
+/**
+ * todas as configurações de um arquivo
+ */
 class FileConfig {
 	
 	public $path        = 'C:\wamp\www\testes\upload\images';
