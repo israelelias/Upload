@@ -1,6 +1,8 @@
 <?php
 
-
+/**
+ * Essa classe irá guardar instancias de uma coleção em especifico.
+ */
 abstract class Collection implements SeekableIterator , Countable {
   
     protected $object = array();
