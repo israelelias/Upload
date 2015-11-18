@@ -1,5 +1,7 @@
 <?php
-
+/**
+ * Guardará todas as informações do arquivo.
+ */
 class File {
 
 	private $name;
