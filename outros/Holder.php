@@ -1,6 +1,8 @@
 <?php
 
-
+/**
+ * Classe para suporte ao framework
+ */
 class Holder {
 	
 	public static $instance;
