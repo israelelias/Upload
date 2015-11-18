@@ -1,5 +1,8 @@
 <?php
 
+/**
+ * Valida erro
+ */
 class Error extends Validator {
 
 	private $errors = array(

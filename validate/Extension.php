@@ -1,5 +1,8 @@
 <?php
 
+/**
+ * Valida extensão
+ */
 class Extension extends Validator {
 
 	private function filterExtension( $name ) {

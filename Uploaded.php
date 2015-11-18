@@ -1,5 +1,8 @@
 <?php
 
+/**
+ * Classe reponsavel em mover o arquivo ao seu destino final.
+ */
 class Uploaded {
 
 	private $path;

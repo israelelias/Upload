@@ -1,5 +1,8 @@
 <?php
 
+/**
+ * Gerencia todas as validações a serem feita a um arquivo
+ */
 class FileManager {
 
 	private $validators = array();

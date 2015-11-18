@@ -1,6 +1,7 @@
 <?php
+
 /**
- * Coleção de instâncias do tipo arquivo.
+ * Guardará uma coleção de instâncias do tipo arquivo.
  */
 class FileCollection extends Collection {
  

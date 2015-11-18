@@ -14,6 +14,9 @@ require_once 'outros/DrawFilename.php';
 require_once 'outros/Holder.php';
 require_once 'Uploaded.php';
 
+/**
+ * Delega as tarefas ao seus devidos responsaveis.
+ */
 class Upload {
 
 	private $fileManager;

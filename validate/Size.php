@@ -1,5 +1,8 @@
 <?php
 
+/**
+ * Valida tamanho do arquivo
+ */
 class Size extends Validator {
 
 	public function validate( File $file ) {

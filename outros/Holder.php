@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Classe para suporte ao framework
+ * Classe para suporte ao framework Upload
  */
 class Holder {
 	

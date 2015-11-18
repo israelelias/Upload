@@ -1,5 +1,8 @@
 <?php
 
+/**
+ * Valida nome do arquivo
+ */
 class Filename extends Validator { 
 
 	private $files;

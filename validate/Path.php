@@ -1,5 +1,8 @@
 <?php
 
+/**
+ * Valida diretório
+ */
 class Path extends Validator {
 
 	public function validate( File $file ) {
