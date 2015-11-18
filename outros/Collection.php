@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Essa classe irá guardar instancias de uma coleção em especifico.
+ * Essa classe irá guardar instâncias de uma coleção em especifico.
  */
 abstract class Collection implements SeekableIterator , Countable {
   
