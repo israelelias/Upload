@@ -14,7 +14,7 @@ class Uploaded {
 	public function moveFile( File $file ) {
 		$filename = new DrawFilename();
 		
-		if (move_uploaded_file($file->getTmp_name(), $this->path . '/' . $filename->draw($file))) {
+		if (!move_uploaded_file($file->getTmp_name(), $this->path . '/' . $filename->draw($file))) {
 			throw new Exception("Não foi possível enviar o arquivo, tente novamente");		
 		}
 	}
